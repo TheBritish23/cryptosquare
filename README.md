@@ -30,9 +30,13 @@ _Spec 3:  If message is a length that creates a perfect square, uses that number
  _input: (4, 9, 16, 25, 36, etc)_
  _output: unknown _
 
-_Spec 4:  If message doesn't fit into the square, chooses the number of columns that corresponds to the smallest square larger than number of characters in message_
- _input:_
- _output:_
+_Spec 4:  If not a perfect square, round up_
+ _input: [[T,h,i,s],[i,s,a,m],[e,s,s,a],[g,e]]_
+ _output: [[t,l,e,g],[h,s,s,e][l,a,s][s,m,g]]_
+
+_Spec 5: Read down, not side_
+ _input: "This is a message"_
+ _output: tleg hsse las smg_
 
 
 
