@@ -26,8 +26,13 @@ _Spec 2: Size of the square (number of columns) should be decided by the length 
  _input: what can i do?_
  _output: 4 x 3_
 
-_Spec 3: 
+_Spec 3:  If message is a length that creates a perfect square, uses that number of columns_
+ _input: (4, 9, 16, 25, 36, etc)_
+ _output: unknown _
 
+_Spec 4:  If message doesn't fit into the square, chooses the number of columns that corresponds to the smallest square larger than number of characters in message_
+ _input:_
+ _output:_
 
 
 
