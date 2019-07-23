@@ -5,3 +5,5 @@ $(document).ready(function() {
   $("form#crypto").submit(function(event) {
     event.preventDefault();
     var words = $('#words').val()
+  })
+ });
