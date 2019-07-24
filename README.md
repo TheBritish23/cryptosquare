@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_I'm using square code to round up the length of the sentence then putting in a block of text. Message is encoded with words in a certain amount of letters._
 
 ## Setup/Installation Requirements
 
