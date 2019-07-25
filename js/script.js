@@ -2,8 +2,8 @@ var cryptos = function(square){
   var grid = []
   //var square = "Thequickbrownfoxjumpedoverthelazydog"
   console.log(square);
-  var len = Math.ceil(Math.sqrt(square.length));
-  var letters = square.split("")
+  var letters = square.replace(/[\s\W]/g, "").split("")
+  var len = Math.ceil(Math.sqrt(letters.length));
   for (x=0; x < square.length; x+=len) {
     console.log(x)
     var topush = letters.slice(x,x+len)
