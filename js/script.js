@@ -1,6 +1,6 @@
-var cryptos = function(){
+var cryptos = function(square){
   var grid = []
-  var square = "Thequickbrownfoxjumpedoverthelazydog"
+  //var square = "Thequickbrownfoxjumpedoverthelazydog"
   console.log(square);
   var len = Math.ceil(Math.sqrt(square.length));
   var letters = square.split("")
@@ -18,7 +18,7 @@ $(document).ready(function() {
   $("form#cryptos").submit(function(event) {
     event.preventDefault();
     var words = $('#words').val()
-    var result = cryptos()
+    var result = cryptos(words)
     $('#output').append()
     $("#result").text()
   })
