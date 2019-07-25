@@ -9,6 +9,11 @@ var cryptos = function(square){
     var topush = letters.slice(x,x+len)
     grid.push(topush)
   }
+  for (x = 0; x < 3; x++) {
+    for (y = 0; y < 3; y++) {
+      console.log(grid[y][x])
+    }
+  }
   console.log(grid)
   var crypt = []
 }
