@@ -1,4 +1,6 @@
 var cryptos = function(square){
+  var cryptoSquare = []
+  var tempString = []
   var grid = []
   //var square = "Thequickbrownfoxjumpedoverthelazydog"
   console.log(square);
@@ -11,8 +13,10 @@ var cryptos = function(square){
   }
   for (x = 0; x < 3; x++) {
     for (y = 0; y < 3; y++) {
-      grid.push(grid[y][x])
+      tempString.push(grid[y][x])
     }
+    cryptoSquare.push(tempString);
+    tempString=[];
   }
   console.log(grid)
   var crypt = []
