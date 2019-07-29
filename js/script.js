@@ -11,7 +11,7 @@ var cryptos = function(square){
   }
   for (x = 0; x < 3; x++) {
     for (y = 0; y < 3; y++) {
-      console.log(grid[y][x])
+      grid.push(grid[y][x])
     }
   }
   console.log(grid)
