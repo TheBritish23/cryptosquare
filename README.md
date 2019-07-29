@@ -42,7 +42,7 @@ _Spec 5: Read down, not side_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_You have to refresh page or they stick together _
 
 ## Support and contact details
 
@@ -50,7 +50,7 @@ _email.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Using Javascript, I had to .join() twice in each forLoop. I also appending a .join()_
 
 ### License
 
