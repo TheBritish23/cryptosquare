@@ -11,14 +11,15 @@ var cryptos = function(square){
     var topush = letters.slice(x,x+len)
     grid.push(topush)
   }
-  for (x = 0; x < 3; x++) {
-    for (y = 0; y < 3; y++) {
+  for (x = 0; x < len; x++) {
+    for (y = 0; y < len; y++) {
       tempString.push(grid[y][x])
     }
-    cryptoSquare.push(tempString);
+    cryptoSquare.push(tempString.join(""));
     tempString=[];
   }
-  console.log(grid)
+  console.log(cryptoSquare.join(" "))
+  $('#output').append(cryptoSquare.join(" "))
   var crypt = []
 }
 
@@ -28,7 +29,6 @@ $(document).ready(function() {
     event.preventDefault();
     var words = $('#words').val()
     var result = cryptos(words)
-    $('#output').append()
     $("#result").text()
   })
  });
